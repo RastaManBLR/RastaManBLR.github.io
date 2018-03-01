@@ -1,31 +1,61 @@
 body{	
-/*background-color: green;*/
+font-family: "ProximaNovaRegular";
 }
 .heder{	
 background-color: #000;
+color: #fff;
 display: flex;
-/*-webkit-justify-content: space-between;
-justify-content: space-between;*/
 padding-top: 29px;
 padding-bottom: 29px;
 padding-left: 50px;
 padding-right: 90px;
+font-family: "ProximaNovaBold";
 }
 .logo{
-background-color: red;\
+/*background-color: red;*/
 width: 140px;
 }
 .nav{
-background-color: green;
+/*background-color: green;*/
+display: flex;
+align-items: center;
 }
 .nav-link{
 	margin-right: 30px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+-webkit-transition:0.2s ease-in;
+-moz-transition:0.2s ease-in;
+-ms-transition:0.2s ease-in;
+-o-transition:0.2s ease-in;
+transition:0.2s ease-in;
 }
 .nav-link:last-child{
 	margin-right: 0;
 }
+.nav-link:hover{
+	color: #18d2fa;
+}
 .cart{
-background-color: red;
+/*background-color: red;*/
 margin-left: auto;
+display: flex;
+align-items: center;
 
+
+}
+.cart .fa-search{
+	margin-right: 25px;
+	-webkit-transition:0.2s ease-in;
+-moz-transition:0.2s ease-in;
+-ms-transition:0.2s ease-in;
+-o-transition:0.2s ease-in;
+transition:0.2s ease-in;
+}
+.fa-search:hover{
+color: #18d2fa;
+}
+.cart .fa-shopping-cart{
+	margin-right: 10px;
 }
