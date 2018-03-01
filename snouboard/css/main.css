@@ -1,6 +1,7 @@
 body{	
 font-family: "ProximaNovaRegular";
 }
+/*...............Heder.................*/
 .heder{	
 background-color: #000;
 color: #fff;
@@ -12,11 +13,9 @@ padding-right: 90px;
 font-family: "ProximaNovaBold";
 }
 .logo{
-/*background-color: red;*/
 width: 140px;
 }
 .nav{
-/*background-color: green;*/
 display: flex;
 align-items: center;
 }
@@ -35,10 +34,9 @@ transition:0.2s ease-in;
 	margin-right: 0;
 }
 .nav-link:hover{
-	color: #18d2fa;
+	color: #2a4290;
 }
 .cart{
-/*background-color: red;*/
 margin-left: auto;
 display: flex;
 align-items: center;
@@ -54,8 +52,89 @@ align-items: center;
 transition:0.2s ease-in;
 }
 .fa-search:hover{
-color: #18d2fa;
+color: #2a4290;
 }
 .cart .fa-shopping-cart{
 	margin-right: 10px;
+}
+/*..............Slider...........*/
+.slider{
+height: 760px;
+}
+.slider_item{
+height: 760px;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: flex;
+-webkit-flex-direction: column;
+-moz-flex-direction: column;
+-ms-flex-direction: column;
+-o-flex-direction: column;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.slider_item--1{
+color: #000;
+background-image: url("../img/bg/slide-1.jpg");
+}
+.slider_center-content{
+	display: flex;
+	flex-direction: column;
+}
+.slider_title{
+font-size: 80px;
+font-family: "ProximaNovaBlack";
+text-transform: uppercase;
+margin-bottom: 60px;
+}
+.slider_title--snowbordman{
+	position: relative;
+}
+.slider_title--snowbordman::after{
+display: block;
+content: "";
+position: absolute;
+left: 240px;
+top: -270px;
+width: 420px;
+height: 436px;
+background-image: url("../img/bg/man.png");
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+-moz-background-size: contain;
+-ms-background-size: contain;
+-o-background-size: contain;
+background-size: contain;
+}
+.slider_button{
+display: inline-block;
+color: #fff;
+text-decoration: none;
+cursor: pointer;
+background-color: #000;
+padding: 20px 33px;
+line-height: 1;
+font-size: 14px;
+font-family: "ProximaNovaBold";
+text-transform: uppercase;
+margin-left: auto;
+-webkit-transition:0.2s ease-in;
+-moz-transition:0.2s ease-in;
+-ms-transition:0.2s ease-in;
+-o-transition:0.2s ease-in;
+transition:0.2s ease-in;
+}
+.slider_button:hover{
+	background-color: #2a4290; 
+}
+.slider_item--2{
+color: #fff;
+background-image: url("../img/bg/slide-2.jpg");
 }
