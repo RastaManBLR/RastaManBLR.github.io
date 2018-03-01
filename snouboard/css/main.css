@@ -1,3 +1,31 @@
 body{	
+/*background-color: green;*/
+}
+.heder{	
+background-color: #000;
+display: flex;
+/*-webkit-justify-content: space-between;
+justify-content: space-between;*/
+padding-top: 29px;
+padding-bottom: 29px;
+padding-left: 50px;
+padding-right: 90px;
+}
+.logo{
+background-color: red;\
+width: 140px;
+}
+.nav{
 background-color: green;
+}
+.nav-link{
+	margin-right: 30px;
+}
+.nav-link:last-child{
+	margin-right: 0;
+}
+.cart{
+background-color: red;
+margin-left: auto;
+
 }
