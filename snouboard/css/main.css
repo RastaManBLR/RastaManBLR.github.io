@@ -57,7 +57,7 @@ color: #2a4290;
 .cart .fa-shopping-cart{
 	margin-right: 10px;
 }
-/*..............Slider...........*/
+/*..............Slider heder...........*/
 .slider{
 height: 760px;
 }
@@ -136,5 +136,138 @@ transition:0.2s ease-in;
 }
 .slider_item--2{
 color: #fff;
+}
+/*..............Slider snowbords...........*/
+.container-full{
+	display: flex;
+	-webkit-flex-direction: column;
+	   -moz-flex-direction: column;
+		-ms-flex-direction: column;
+		 -o-flex-direction: column;
+		    flex-direction: column;
+	-ms-align-items: center;
+		align-items: center;
+}
+.container--snowbords{
+	padding-top: 45px;
+	padding-bottom: 200px;
+}
+.heder-group{
+	position: relative;
+	display: flex;
+	-webkit-flex-direction: column;
+	   -moz-flex-direction: column;
+		-ms-flex-direction: column;
+		 -o-flex-direction: column;
+		    flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+		padding-bottom: 50px;
+		
+	
+}
+.heder-group::after{
+	display: block;
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 30px;
+	height: 30px;
+	margin-left: -15px;
+	background-image: url("../img/icons/xicon.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-ms-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}		
+.title-1{
+font-size: 48px;
+font-family: "ProximaNovaBlack";
+text-transform: uppercase;
+margin: 0;
+margin-bottom: 20px;
 
+}
+.sub-title{
+font-size: 14px;
+font-family: "ProximaNovaBold";
+text-transform: uppercase;
+
+}
+.slider_snowbords{
+
+}
+.caption{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: "ProximaNovaBold";
+
+}
+.slider_snowbords-holder{
+	width: 100%;
+	overflow: hidden;
+	
+}
+.slider_snowbords.owl-carousel{
+	height: 405px;
+	padding-top: 115px;
+	padding-bottom: 50px;
+	width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.slider_snowbords.owl-carousel .owl-stage-outer{
+overflow: visible;
+}
+.slider_snowbords-iten{
+	width: 370px;
+	height: 405px;
+	text-align: center;
+	
+}
+.slider_snowbords.owl-carousel .owl-item img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	
+}
+.slider_snowbords .owl-item{
+	opacity: 0.5;
+}
+.slider_snowbords .owl-item.center{
+	opacity: 1;
+}
+.slider_snowbords.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{
+	
+	position: absolute;
+	top: 50%;
+	width: 123px;
+	height: 230px;
+	display: block;
+	margin-top: -115px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-ms-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	
+}
+.slider_snowbords.owl-carousel .owl-nav .owl-next{
+	background-image: url("../img/icons/nexticon.svg");
+	right: -120px;
+}
+	
+
+.slider_snowbords.owl-carousel .owl-nav .owl-prev{
+	background-image: url("../img/icons/previcon.svg");
+	left: -120px;
 }
